@@ -82,7 +82,6 @@ public class Project2 {
             System.err.println("Enter options: ");
             String options = input.next();
             if (options.equals("1")) {
-
                 addContact(contacts, n);
             } else if (options.equals("2")) {
                 searchContact(contacts);
