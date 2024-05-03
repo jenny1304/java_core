@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class BT3 {
+public class BT3_1 {
     public static boolean checkPass(String password) {
         if (password.length() < 8) {
             return false;
